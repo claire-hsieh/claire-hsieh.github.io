@@ -155,7 +155,7 @@ Able to create predictive models and simulations
 
 Apr 2021 - Present \| Davis, CA
 
-The Arsuaga-Vasquez lab utilizes topological methods to study the 3D organization of DNA and proteins.
+The Arsuaga-Vasquez lab utilizes topological methods to study the 3D organization of DNA and proteins in bacteriophages.
 
 **Responsibilities**:
 
@@ -239,7 +239,7 @@ B.S. in Genetics and Genomics
 
 Minor in Statistics, Quantitative Biology and Bioinformatics
 
-GPA: 3.74
+GPA: 3.75
 
 Extracurricular Activities:
 

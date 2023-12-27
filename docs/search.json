@@ -11,7 +11,7 @@
     "href": "index.html#research-assistant",
     "title": "About Me",
     "section": "Research Assistant",
-    "text": "Research Assistant\nTopological Molecular Biology Lab\nApr 2021 - Present | Davis, CA\nThe Arsuaga-Vasquez lab utilizes topological methods to study the 3D organization of DNA and proteins.\nResponsibilities:\n\nAnalyzed viral datasets to extract and annotate proteins using sequence and structural similarity\nUtilized profile HMMs in predicting SARS COV-2 mutation probabilities weighted by country\nCleaned and aligned genomic datasets using MAFFT and Clustal Omega\nGrew and collected microbial cultures\nSet up and performed gel electrophoresis\nPrepared frozen samples using GP2 and imaged using Cryo-EM\nDesigned primers and performed qPCR to quantify DNA\nExtracted DNA using miniprep or chloroform"
+    "text": "Research Assistant\nTopological Molecular Biology Lab\nApr 2021 - Present | Davis, CA\nThe Arsuaga-Vasquez lab utilizes topological methods to study the 3D organization of DNA and proteins in bacteriophages.\nResponsibilities:\n\nAnalyzed viral datasets to extract and annotate proteins using sequence and structural similarity\nUtilized profile HMMs in predicting SARS COV-2 mutation probabilities weighted by country\nCleaned and aligned genomic datasets using MAFFT and Clustal Omega\nGrew and collected microbial cultures\nSet up and performed gel electrophoresis\nPrepared frozen samples using GP2 and imaged using Cryo-EM\nDesigned primers and performed qPCR to quantify DNA\nExtracted DNA using miniprep or chloroform"
   },
   {
     "objectID": "index.html#research-assitant",
@@ -39,7 +39,7 @@
     "href": "index.html#university-of-california-davis",
     "title": "About Me",
     "section": "University of California, Davis",
-    "text": "University of California, Davis\n2020 - 2024\nB.S. in Genetics and Genomics\nMinor in Statistics, Quantitative Biology and Bioinformatics\nGPA: 3.74\nExtracurricular Activities:\n\nSocial Media Officer of the Davis Data Science Club\nMember of the Aggie Fiction Writing Workshop"
+    "text": "University of California, Davis\n2020 - 2024\nB.S. in Genetics and Genomics\nMinor in Statistics, Quantitative Biology and Bioinformatics\nGPA: 3.75\nExtracurricular Activities:\n\nSocial Media Officer of the Davis Data Science Club\nMember of the Aggie Fiction Writing Workshop"
   },
   {
     "objectID": "posts/portfolio/contents/HackDavis/index.html",
@@ -60,14 +60,28 @@
     "href": "posts/portfolio/contents/MGV/index.html",
     "title": "Metagenomics Viral Database Project",
     "section": "",
-    "text": "Project at the Arsuaga-Vazquez lab to analyze the connector protein from a database of viruses sequenced from the human gut.\nThe data was obtained from the paper, Metagenomic compendium of 189,680 DNA viruses from the human gut microbiome. Many of these viruses were previously unknown and the goal of this project is to create a general structure of the connector protein by obtaining and modeling many connector proteins whose sequences are available in the database."
+    "text": "Project at the Arsuaga-Vazquez lab to analyze the connector protein from a database of viruses sequenced from the human gut."
+  },
+  {
+    "objectID": "posts/portfolio/contents/MGV/index.html#motivation-goals",
+    "href": "posts/portfolio/contents/MGV/index.html#motivation-goals",
+    "title": "Metagenomics Viral Database Project",
+    "section": "Motivation / Goals",
+    "text": "Motivation / Goals\n\nPhages are the most abundant biological entity on Earth and has been shown to have major impacts on human gut health and consequently, human health. We are specifically interested in the connector protein of phage to better understand how DNA packing occurs in phages (a key component of the viral lifecycle). The goal of this project is to create a general structure of the connector protein by obtaining and modeling many connector proteins whose sequences are available in the database."
+  },
+  {
+    "objectID": "posts/portfolio/contents/MGV/index.html#exploratory-data-analysis",
+    "href": "posts/portfolio/contents/MGV/index.html#exploratory-data-analysis",
+    "title": "Metagenomics Viral Database Project",
+    "section": "Exploratory Data Analysis",
+    "text": "Exploratory Data Analysis\nThe data was obtained from the paper, Metagenomic compendium of 189,680 DNA viruses from the human gut microbiome and contains many (previously) unknown viruses. The majority of the phages belong to the Caudovirales order, characterized by their tails and dsDNA, and are the most populous class of viruses."
   },
   {
     "objectID": "posts/portfolio/contents/MGV/index.html#obtaining-the-sequences",
     "href": "posts/portfolio/contents/MGV/index.html#obtaining-the-sequences",
     "title": "Metagenomics Viral Database Project",
     "section": "Obtaining the Sequences",
-    "text": "Obtaining the Sequences\n\nBecause connector proteins are not well conserved, sequence similarity will not be very high. Therefore, we will BLAST the connector protein domains against the database (rather than entire sequences) to find the connector protein."
+    "text": "Obtaining the Sequences\n\nBecause connector proteins are not well conserved, sequence similarity will not be very high. For now, we will BLAST only connector domains against the database (rather than entire sequences) to find the connector protein."
   },
   {
     "objectID": "posts/portfolio/contents/MGV/index.html#modeling",

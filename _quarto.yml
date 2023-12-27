@@ -18,6 +18,7 @@ website:
         href: https://github.com/claire-hsieh
       - icon: linkedin
         href: https://www.linkedin.com/in/claire-hsieh-539456174/
+    google-analytics: "G-T7KP22J9M5"
 format:
   html:
     theme: minty

@@ -4,15 +4,24 @@ date: "12/01/23"
 image: "thumbnail.png"
 ---
 
-Project at the Arsuaga-Vazquez lab to analyze the connector protein from a database of viruses sequenced from the human gut. 
+Project at the Arsuaga-Vazquez lab to analyze the connector protein from a database of viruses sequenced from the human gut.
 
-The data was obtained from the paper, [Metagenomic compendium of 189,680 DNA viruses from the human gut microbiome](https://www.nature.com/articles/s41564-021-00928-6). Many of these viruses were previously unknown and the goal of this project is to create a general structure of the connector protein by obtaining and modeling many connector proteins whose sequences are available in the database. 
+## Motivation / Goals
+
+-   Phages are the most abundant biological entity on Earth and has been shown to have major impacts on human gut health and consequently, human health. We are specifically interested in the connector protein of phage to better understand how DNA packing occurs in phages (a key component of the viral lifecycle). The goal of this project is to create a general structure of the connector protein by obtaining and modeling many connector proteins whose sequences are available in the database.
+
+## Exploratory Data Analysis
+
+The data was obtained from the paper, [Metagenomic compendium of 189,680 DNA viruses from the human gut microbiome](https://www.nature.com/articles/s41564-021-00928-6) and contains many (previously) unknown viruses. The majority of the phages belong to the Caudovirales order, characterized by their tails and dsDNA, and are the most populous class of viruses.
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Caudovirales.svg/330px-Caudovirales.svg.png){width="172"}
 
 ## Obtaining the Sequences
-- Because connector proteins are not well conserved, sequence similarity will not be very high. Therefore, we will BLAST the connector protein domains against the database (rather than entire sequences) to find the connector protein. 
+
+-   Because connector proteins are not well conserved, sequence similarity will not be very high. For now, we will BLAST only connector domains against the database (rather than entire sequences) to find the connector protein.
 
 ## Modeling
-- We will be using AlphaFold and SWISS-MODEL to model the connector protein.
 
-![](MGV_presentation.pdf){ width="750px" height="1000px" }
+-   We will be using AlphaFold and SWISS-MODEL to model the connector protein.
 
+![](MGV_presentation.pdf){width="750px" height="1000px"}

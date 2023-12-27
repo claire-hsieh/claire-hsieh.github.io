@@ -142,7 +142,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#obtaining-the-sequences" id="toc-obtaining-the-sequences" class="nav-link active" data-scroll-target="#obtaining-the-sequences">Obtaining the Sequences</a></li>
+  <li><a href="#motivation-goals" id="toc-motivation-goals" class="nav-link active" data-scroll-target="#motivation-goals">Motivation / Goals</a></li>
+  <li><a href="#exploratory-data-analysis" id="toc-exploratory-data-analysis" class="nav-link" data-scroll-target="#exploratory-data-analysis">Exploratory Data Analysis</a></li>
+  <li><a href="#obtaining-the-sequences" id="toc-obtaining-the-sequences" class="nav-link" data-scroll-target="#obtaining-the-sequences">Obtaining the Sequences</a></li>
   <li><a href="#modeling" id="toc-modeling" class="nav-link" data-scroll-target="#modeling">Modeling</a></li>
   </ul>
 </nav>
@@ -154,11 +156,21 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>Project at the Arsuaga-Vazquez lab to analyze the connector protein from a database of viruses sequenced from the human gut.</p>
-<p>The data was obtained from the paper, <a href="https://www.nature.com/articles/s41564-021-00928-6">Metagenomic compendium of 189,680 DNA viruses from the human gut microbiome</a>. Many of these viruses were previously unknown and the goal of this project is to create a general structure of the connector protein by obtaining and modeling many connector proteins whose sequences are available in the database.</p>
+<section id="motivation-goals" class="level2">
+<h2 class="anchored" data-anchor-id="motivation-goals">Motivation / Goals</h2>
+<ul>
+<li>Phages are the most abundant biological entity on Earth and has been shown to have major impacts on human gut health and consequently, human health. We are specifically interested in the connector protein of phage to better understand how DNA packing occurs in phages (a key component of the viral lifecycle). The goal of this project is to create a general structure of the connector protein by obtaining and modeling many connector proteins whose sequences are available in the database.</li>
+</ul>
+</section>
+<section id="exploratory-data-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="exploratory-data-analysis">Exploratory Data Analysis</h2>
+<p>The data was obtained from the paper, <a href="https://www.nature.com/articles/s41564-021-00928-6">Metagenomic compendium of 189,680 DNA viruses from the human gut microbiome</a> and contains many (previously) unknown viruses. The majority of the phages belong to the Caudovirales order, characterized by their tails and dsDNA, and are the most populous class of viruses.</p>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Caudovirales.svg/330px-Caudovirales.svg.png" class="img-fluid" width="172"></p>
+</section>
 <section id="obtaining-the-sequences" class="level2">
 <h2 class="anchored" data-anchor-id="obtaining-the-sequences">Obtaining the Sequences</h2>
 <ul>
-<li>Because connector proteins are not well conserved, sequence similarity will not be very high. Therefore, we will BLAST the connector protein domains against the database (rather than entire sequences) to find the connector protein.</li>
+<li>Because connector proteins are not well conserved, sequence similarity will not be very high. For now, we will BLAST only connector domains against the database (rather than entire sequences) to find the connector protein.</li>
 </ul>
 </section>
 <section id="modeling" class="level2">
