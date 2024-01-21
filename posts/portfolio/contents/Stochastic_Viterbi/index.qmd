@@ -4,6 +4,8 @@ date: "9/1/23"
 image: "thumbnail.png"
 ---
 
+![](thumbnail.png){fig-align="center" width="700"}
+
 Project at the Korf Lab to find probable isoforms
 
 The same gene can be used to create multiple different gene products by splicing exons together in various ways through alternative splcing. These different products or transcripts are called isoforms. And of the possible transcripts, most are rare but due to the random and messy nature of splicing, rare isoforms do occur at a measurable rate. Isoforms that do not conform to our expectations of random splicing are more likely to have biological function and to find these isoforms, we used the Stochastic Viterbi algorithm. To find likely isoforms, our algorithm randomly traversed a Viterbi trellis, and the Forward-Backward algorithm was used to find the probability.

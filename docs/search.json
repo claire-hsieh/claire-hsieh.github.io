@@ -4,14 +4,14 @@
     "href": "index.html",
     "title": "About Me",
     "section": "",
-    "text": "Hi! My name is Claire and I’m currently a student at UC Davis majoring in Genetics and Genomics and planning to pursue a PhD in Biostatistics. My research interests are in statistical genetics and machine learning which I hope to apply in cancer and Alzheimer’s research. I love to read with my favorite genres being Fantasy and Sci-fi!"
+    "text": "&lt;iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-N2CP672X\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"&gt;&lt;/iframe&gt;\nHi! My name is Claire and I’m currently a student at UC Davis majoring in Genetics and Genomics and planning to pursue a PhD in Biostatistics. My research interests are in statistical genetics and machine learning which I hope to apply in cancer and Alzheimer’s research. I love to read with my favorite genres being Fantasy and Sci-fi!"
   },
   {
     "objectID": "index.html#research-assistant",
     "href": "index.html#research-assistant",
     "title": "About Me",
     "section": "Research Assistant",
-    "text": "Research Assistant\nTopological Molecular Biology Lab\nApr 2021 - Present | Davis, CA\nThe Arsuaga-Vasquez lab utilizes topological methods to study the 3D organization of DNA and proteins in bacteriophages.\nResponsibilities:\n\nAnalyzed viral datasets to extract and annotate proteins using sequence and structural similarity\nUtilized profile HMMs in predicting SARS COV-2 mutation probabilities weighted by country\nCleaned and aligned genomic datasets using MAFFT and Clustal Omega\nGrew and collected microbial cultures\nSet up and performed gel electrophoresis\nPrepared frozen samples using GP2 and imaged using Cryo-EM\nDesigned primers and performed qPCR to quantify DNA\nExtracted DNA using miniprep or chloroform"
+    "text": "Research Assistant\nArsuaga Vazquez Lab\nApr 2022 - Present | Davis, CA\nThe Arsuaga-Vasquez lab utilizes topological methods to study the 3D organization of DNA and proteins in bacteriophages.\nResponsibilities:\n\nAnalyzed viral datasets to extract and annotate proteins using sequence and structural similarity\nUtilized profile HMMs in predicting SARS COV-2 mutation probabilities weighted by country\nCleaned and aligned genomic datasets using MAFFT and Clustal Omega\nGrew and collected microbial cultures\nSet up and performed gel electrophoresis\nPrepared frozen samples using GP2 and imaged using Cryo-EM\nDesigned primers and performed qPCR to quantify DNA\nExtracted DNA using miniprep or chloroform"
   },
   {
     "objectID": "index.html#research-assitant",

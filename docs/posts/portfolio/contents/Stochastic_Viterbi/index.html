@@ -60,6 +60,13 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-N2CP672X');</script>
+<!-- End Google Tag Manager -->
 
 
 <link rel="stylesheet" href="../../../../styles.css">
@@ -142,10 +149,18 @@ ul.task-list li input[type="checkbox"] {
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page" id="quarto-document-content">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N2CP672X" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
 
 
 
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="thumbnail.png" class="img-fluid figure-img" width="700"></p>
+</figure>
+</div>
 <p>Project at the Korf Lab to find probable isoforms</p>
 <p>The same gene can be used to create multiple different gene products by splicing exons together in various ways through alternative splcing. These different products or transcripts are called isoforms. And of the possible transcripts, most are rare but due to the random and messy nature of splicing, rare isoforms do occur at a measurable rate. Isoforms that do not conform to our expectations of random splicing are more likely to have biological function and to find these isoforms, we used the Stochastic Viterbi algorithm. To find likely isoforms, our algorithm randomly traversed a Viterbi trellis, and the Forward-Backward algorithm was used to find the probability.</p>
 <p>The goal of this algorithm is to find multiple, likely paths through a hidden Markov model. The algorithm is based on the Viterbi algorithm, but instead of finding the most likely path, it finds the <code>n</code> most likely paths. Probabilities of being in a state are calculated using a forward-backward algorithm.</p>

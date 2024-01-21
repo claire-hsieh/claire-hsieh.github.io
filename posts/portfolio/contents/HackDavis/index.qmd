@@ -4,6 +4,8 @@ date: "05/21/23"
 image: "thumbnail.png"
 ---
 
+![](thumbnail.png){fig-align="center" width="700"}
+
 HackDavis Project 2023: A scavenger-hunt type game to introduce UC Davis to new students
 
 [Trouble in Moo Town](https://saisuresh2.github.io/davis_adventure_game/)

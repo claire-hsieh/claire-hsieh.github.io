@@ -60,7 +60,7 @@ skill_donut <- function(skill, percentage, donut_color){
 
 s1 = skill_donut("Teamwork", 90, "coral1")
 s2 = skill_donut("Leadership", 80, "cornflowerblue")
-s3 = skill_donut("Work Ethic", 70, "darkseagreen")
+s3 = skill_donut("Work Ethic", 75, "darkseagreen")
 s4 = skill_donut("Communication", 80, "gold")
 
 grid.arrange(s1, s2, s3, s4, nrow = 2, newpage = TRUE)
@@ -151,9 +151,9 @@ Able to create predictive models and simulations
 ::: {#experience1 .experience}
 ## Research Assistant
 
-[**Topological Molecular Biology Lab**](https://arsuaga-vazquez-lab.faculty.ucdavis.edu/){style="color:DarkCyan;"}
+[**Arsuaga Vazquez Lab**](https://arsuaga-vazquez-lab.faculty.ucdavis.edu/){style="color:DarkCyan;"}
 
-Apr 2021 - Present \| Davis, CA
+Apr 2022 - Present \| Davis, CA
 
 The Arsuaga-Vasquez lab utilizes topological methods to study the 3D organization of DNA and proteins in bacteriophages.
 

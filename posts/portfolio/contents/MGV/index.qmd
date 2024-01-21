@@ -4,6 +4,8 @@ date: "12/01/23"
 image: "thumbnail.png"
 ---
 
+![](thumbnail.png){fig-align="center" width="700"}
+
 Project at the Arsuaga-Vazquez lab to analyze the connector protein from a database of viruses sequenced from the human gut.
 
 ## Motivation / Goals

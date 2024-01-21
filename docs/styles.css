@@ -26,7 +26,8 @@
 .card-header{
   background: LightGray;
   border-radius: 25px;  
-  align-items: left;
+  align-items: center;
+  text-align: left;
   column-gap: 1em;
 }
 
