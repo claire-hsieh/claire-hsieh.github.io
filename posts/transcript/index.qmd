@@ -1,0 +1,9 @@
+---
+title: "Transcript"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+![](Unofficial Transcript.pdf){ width="1000px" height="1000px" }

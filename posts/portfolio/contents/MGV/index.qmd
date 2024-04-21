@@ -6,24 +6,57 @@ image: "thumbnail.png"
 
 ![](thumbnail.png){fig-align="center" width="700"}
 
-Project at the Arsuaga-Vazquez lab to analyze the connector protein from a database of viruses sequenced from the human gut.
+Project at the Arsuaga-Vazquez lab to analyze the connector protein from a database of viruses sequenced from the human gut. 
+
+(Above image is the connector complex)
+
+Supporting Code can be found [here](https://github.com/Arsuaga-Vazquez-Lab/MGV-connector-protein/tree/main). 
 
 ## Motivation / Goals
 
--   Phages are the most abundant biological entity on Earth and has been shown to have major impacts on human gut health and consequently, human health. We are specifically interested in the connector protein of phage to better understand how DNA packing occurs in phages (a key component of the viral lifecycle). The goal of this project is to create a general structure of the connector protein by obtaining and modeling many connector proteins whose sequences are available in the database.
+Phages are the most abundant biological entity on Earth and has been shown to have major impacts on human gut health and consequently, human health. But viruses are also known to evolve at rates unheard of in living organisms and this can complicate efforts to draw accurate phylogenetic trees based on sequence alignment as is the usual practice in evolutionary studies. In this project, we attempt to create a more accurate phylogenetic tree based on structural similarities of a key, conserved protein: the connector protein. 
 
 ## Exploratory Data Analysis
 
-The data was obtained from the paper, [Metagenomic compendium of 189,680 DNA viruses from the human gut microbiome](https://www.nature.com/articles/s41564-021-00928-6) and contains many (previously) unknown viruses. The majority of the phages belong to the Caudovirales order, characterized by their tails and dsDNA, and are the most populous class of viruses.
+The data was obtained from the paper, [Metagenomic compendium of 189,680 DNA viruses from the human gut microbiome](https://www.nature.com/articles/s41564-021-00928-6) and contains many (previously) unknown viruses in the microbiome. The majority of the phages in the database are of the order Caudovirales and the 3 major families of this order are shown below: 
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Caudovirales.svg/330px-Caudovirales.svg.png){width="172"}
 
-## Obtaining the Sequences
 
--   Because connector proteins are not well conserved, sequence similarity will not be very high. For now, we will BLAST only connector domains against the database (rather than entire sequences) to find the connector protein.
+## Workflow
 
-## Modeling
+1. **Data Collection**: 
+    - Protein sequences in the MGV database have been clustered into viral protein clusters (VPCs) using MMseqs2 and have been annotated based on various databases such as Pfam, KEGG, and InterPro.
+    - Extract VPC's that are annotated with the term "connector" from the MGV database
+    - Extract protein sequences that belong to these VPCs from the MGV database
+    - Files for this are located in the [scripts](https://github.com/Arsuaga-Vazquez-Lab/MGV-connector-protein/tree/0cc42c4bffefd5a69b6dfe705fca0d5478359317/scripts) directory
+    
 
--   We will be using AlphaFold and SWISS-MODEL to model the connector protein.
+2. **Modelling with AlphaFold2**
+    - We used the AlphaFold2 algorithm to predict the 3D structure of the connector protein sequences extracted as shown above.
+    
+3. **Analysis**
+    - Used TM Align to do pair-wise structural comparisons of the predicted structures + comparisons with known structures of the connector protein (PDB database)
 
-![](MGV_presentation.pdf){width="750px" height="1000px"}
+5. **Structural Analysis**
+    - Structural Phylogenetic tree can be found in [tree](https://github.com/Arsuaga-Vazquez-Lab/MGV-connector-protein/tree/main/tree)
+	
+6. **Compare Structural Phylogenetic Tree with Hosts**
+	- hosts can be found in [heatmap](https://github.com/Arsuaga-Vazquez-Lab/MGV-connector-protein/tree/main/heatmap)
+
+## Results
+
+It is difficult to verify whether the structural phylogenetic tree we created is any more or less accurate than phylogenetic trees made using sequence alignment. What we do see is that there are certain clades in the structural tree that correspond to certain hosts. This may indicate that the certain hosts are placing some selective pressure on the evolution of the connector protein and the workflow we've outlined in this project could potentially used to further explore how hosts or perhaps even other environmental factors influence the evolution of certain proteins. 
+
+
+## Future Directions
+
+- Instead of using TM-align (which looks at global similarities), we should compare structures based on local similarities. One software that does this is [DALI](http://ekhidna2.biocenter.helsinki.fi/dali/)
+    
+- We only looked compared the structure of the monomer in this project. Using the complete structure of the complex would be more biologically accurate. 
+
+- And last but not least, it's always better to have more data. We only used structures in the database that were annotated as "connector". "Portal" is synonymous with "connector" in bacteriophage physiology. Those structures can also be used here. 
+
+
+Poster presented at URC 2024: 
+![](Hsieh,C.-Microbiome Bacteriophages.pdf){width="850px" height="750px"}

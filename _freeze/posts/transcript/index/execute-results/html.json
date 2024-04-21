@@ -1,0 +1,14 @@
+{
+  "hash": "92bb97d52fb19c4d86f3b8399e9f8a30",
+  "result": {
+    "markdown": "---\ntitle: \"Transcript\"\n---\n\n\n\n\n![](Unofficial Transcript.pdf){ width=\"1000px\" height=\"1000px\" }\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -153,27 +153,29 @@ Able to create predictive models and simulations
 
 [**Arsuaga Vazquez Lab**](https://arsuaga-vazquez-lab.faculty.ucdavis.edu/){style="color:DarkCyan;"}
 
-Apr 2022 - Present \| Davis, CA
+Apr 2022 - Apr 2024 \| Davis, CA
 
-The Arsuaga-Vasquez lab utilizes topological methods to study the 3D organization of DNA and proteins in bacteriophages.
+The Arsuaga-Vasquez lab uses topological methods to study the 3D organization of DNA and proteins in bacteriophages.
 
 **Responsibilities**:
 
--   Analyzed viral datasets to extract and annotate proteins using sequence and structural similarity
+- Created a structural phylogenetic tree based on predicted structural similarities of the
+connector protein found in bacteriophages
 
--   Utilized profile HMMs in predicting SARS COV-2 mutation probabilities weighted by country
+- Used profile HMMs to predict SARS COV-2 mutation probabilities weighted by country
 
--   Cleaned and aligned genomic datasets using MAFFT and Clustal Omega
+- Aligned genomic sequences using MAFFT and Clustal Omega
 
--   Grew and collected microbial cultures
+- Grew and collected microbial cultures
 
--   Set up and performed gel electrophoresis
+- Extracted DNA using miniprep or chloroform
 
--   Prepared frozen samples using GP2 and imaged using Cryo-EM
+- Set up and performed gel electrophoresis
 
--   Designed primers and performed qPCR to quantify DNA
+- Prepared frozen protein samples using GP2 and easi-Glow then imaged using Cryo-EM
 
--   Extracted DNA using miniprep or chloroform
+- Designed primers and performed qPCR to quantify DNA
+
 :::
 
 ::: {#experience2 .experience}
@@ -181,19 +183,22 @@ The Arsuaga-Vasquez lab utilizes topological methods to study the 3D organizatio
 
 [**Korf Lab**](http://korflab.ucdavis.edu/about.html){style="color:DarkCyan;"}
 
-Dec 2022 - Present \| Davis, CA
+Dec 2022 - Apr 2024 \| Davis, CA
 
 The Korf lab studies the structure and function of various genes and genetic elements using computational methods.
 
 **Responsibilities**:
 
--   Developed Python programs that use intron position to predict gene enhancement
+- Implemented a Stochastic Viterbi and forward-backwards algorithm in Python to generate
+random, probable isoforms
 
--   Examined orthologous genes to identify introns with potential for enhancing genes
+- Developed Python programs to predict gene enhancement using intron position
 
--   Created algorithms to identify motifs using discretized position weight matrices, regular expressions, and k-mers
+- Examined orthologous genes to identify introns with potential to enhance gene expression
 
--   Implemented a Stochastic Viterbi and forward-backwards algorithm in Python to generate random, probable isoforms :::
+- Created algorithms to identify motifs using discretized position weight matrices, regular expressions, and k-mers
+
+:::
 :::
 
 ::: {#experience3 .experience}

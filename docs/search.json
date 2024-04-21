@@ -4,21 +4,21 @@
     "href": "index.html",
     "title": "About Me",
     "section": "",
-    "text": "&lt;iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-N2CP672X\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"&gt;&lt;/iframe&gt;\nHi! My name is Claire and I’m currently a student at UC Davis majoring in Genetics and Genomics and planning to pursue a PhD in Biostatistics. My research interests are in statistical genetics and machine learning which I hope to apply in cancer and Alzheimer’s research. I love to read with my favorite genres being Fantasy and Sci-fi!"
+    "text": "Hi! My name is Claire and I’m currently a student at UC Davis majoring in Genetics and Genomics and planning to pursue a PhD in Biostatistics. My research interests are in statistical genetics and machine learning which I hope to apply in cancer and Alzheimer’s research. I love to read with my favorite genres being Fantasy and Sci-fi!\n:::"
   },
   {
     "objectID": "index.html#research-assistant",
     "href": "index.html#research-assistant",
     "title": "About Me",
     "section": "Research Assistant",
-    "text": "Research Assistant\nArsuaga Vazquez Lab\nApr 2022 - Present | Davis, CA\nThe Arsuaga-Vasquez lab utilizes topological methods to study the 3D organization of DNA and proteins in bacteriophages.\nResponsibilities:\n\nAnalyzed viral datasets to extract and annotate proteins using sequence and structural similarity\nUtilized profile HMMs in predicting SARS COV-2 mutation probabilities weighted by country\nCleaned and aligned genomic datasets using MAFFT and Clustal Omega\nGrew and collected microbial cultures\nSet up and performed gel electrophoresis\nPrepared frozen samples using GP2 and imaged using Cryo-EM\nDesigned primers and performed qPCR to quantify DNA\nExtracted DNA using miniprep or chloroform"
+    "text": "Research Assistant\nArsuaga Vazquez Lab\nApr 2022 - Apr 2024 | Davis, CA\nThe Arsuaga-Vasquez lab uses topological methods to study the 3D organization of DNA and proteins in bacteriophages.\nResponsibilities:\n\nCreated a structural phylogenetic tree based on predicted structural similarities of the connector protein found in bacteriophages\nUsed profile HMMs to predict SARS COV-2 mutation probabilities weighted by country\nAligned genomic sequences using MAFFT and Clustal Omega\nGrew and collected microbial cultures\nExtracted DNA using miniprep or chloroform\nSet up and performed gel electrophoresis\nPrepared frozen protein samples using GP2 and easi-Glow then imaged using Cryo-EM\nDesigned primers and performed qPCR to quantify DNA"
   },
   {
     "objectID": "index.html#research-assitant",
     "href": "index.html#research-assitant",
     "title": "About Me",
     "section": "Research Assitant",
-    "text": "Research Assitant\nKorf Lab\nDec 2022 - Present | Davis, CA\nThe Korf lab studies the structure and function of various genes and genetic elements using computational methods.\nResponsibilities:\n\nDeveloped Python programs that use intron position to predict gene enhancement\nExamined orthologous genes to identify introns with potential for enhancing genes\nCreated algorithms to identify motifs using discretized position weight matrices, regular expressions, and k-mers\nImplemented a Stochastic Viterbi and forward-backwards algorithm in Python to generate random, probable isoforms :::"
+    "text": "Research Assitant\nKorf Lab\nDec 2022 - Apr 2024 | Davis, CA\nThe Korf lab studies the structure and function of various genes and genetic elements using computational methods.\nResponsibilities:\n\nImplemented a Stochastic Viterbi and forward-backwards algorithm in Python to generate random, probable isoforms\nDeveloped Python programs to predict gene enhancement using intron position\nExamined orthologous genes to identify introns with potential to enhance gene expression\nCreated algorithms to identify motifs using discretized position weight matrices, regular expressions, and k-mers"
   },
   {
     "objectID": "index.html#intern",
@@ -60,35 +60,42 @@
     "href": "posts/portfolio/contents/MGV/index.html",
     "title": "Metagenomics Viral Database Project",
     "section": "",
-    "text": "Project at the Arsuaga-Vazquez lab to analyze the connector protein from a database of viruses sequenced from the human gut."
+    "text": "Project at the Arsuaga-Vazquez lab to analyze the connector protein from a database of viruses sequenced from the human gut.\n(Above image is the connector complex)\nSupporting Code can be found here."
   },
   {
     "objectID": "posts/portfolio/contents/MGV/index.html#motivation-goals",
     "href": "posts/portfolio/contents/MGV/index.html#motivation-goals",
     "title": "Metagenomics Viral Database Project",
     "section": "Motivation / Goals",
-    "text": "Motivation / Goals\n\nPhages are the most abundant biological entity on Earth and has been shown to have major impacts on human gut health and consequently, human health. We are specifically interested in the connector protein of phage to better understand how DNA packing occurs in phages (a key component of the viral lifecycle). The goal of this project is to create a general structure of the connector protein by obtaining and modeling many connector proteins whose sequences are available in the database."
+    "text": "Motivation / Goals\nPhages are the most abundant biological entity on Earth and has been shown to have major impacts on human gut health and consequently, human health. But viruses are also known to evolve at rates unheard of in living organisms and this can complicate efforts to draw accurate phylogenetic trees based on sequence alignment as is the usual practice in evolutionary studies. In this project, we attempt to create a more accurate phylogenetic tree based on structural similarities of a key, conserved protein: the connector protein."
   },
   {
     "objectID": "posts/portfolio/contents/MGV/index.html#exploratory-data-analysis",
     "href": "posts/portfolio/contents/MGV/index.html#exploratory-data-analysis",
     "title": "Metagenomics Viral Database Project",
     "section": "Exploratory Data Analysis",
-    "text": "Exploratory Data Analysis\nThe data was obtained from the paper, Metagenomic compendium of 189,680 DNA viruses from the human gut microbiome and contains many (previously) unknown viruses. The majority of the phages belong to the Caudovirales order, characterized by their tails and dsDNA, and are the most populous class of viruses."
+    "text": "Exploratory Data Analysis\nThe data was obtained from the paper, Metagenomic compendium of 189,680 DNA viruses from the human gut microbiome and contains many (previously) unknown viruses in the microbiome. The majority of the phages in the database are of the order Caudovirales and the 3 major families of this order are shown below:"
   },
   {
-    "objectID": "posts/portfolio/contents/MGV/index.html#obtaining-the-sequences",
-    "href": "posts/portfolio/contents/MGV/index.html#obtaining-the-sequences",
+    "objectID": "posts/portfolio/contents/MGV/index.html#workflow",
+    "href": "posts/portfolio/contents/MGV/index.html#workflow",
     "title": "Metagenomics Viral Database Project",
-    "section": "Obtaining the Sequences",
-    "text": "Obtaining the Sequences\n\nBecause connector proteins are not well conserved, sequence similarity will not be very high. For now, we will BLAST only connector domains against the database (rather than entire sequences) to find the connector protein."
+    "section": "Workflow",
+    "text": "Workflow\n\nData Collection:\n\nProtein sequences in the MGV database have been clustered into viral protein clusters (VPCs) using MMseqs2 and have been annotated based on various databases such as Pfam, KEGG, and InterPro.\nExtract VPC’s that are annotated with the term “connector” from the MGV database\nExtract protein sequences that belong to these VPCs from the MGV database\nFiles for this are located in the scripts directory\n\nModelling with AlphaFold2\n\nWe used the AlphaFold2 algorithm to predict the 3D structure of the connector protein sequences extracted as shown above.\n\nAnalysis\n\nUsed TM Align to do pair-wise structural comparisons of the predicted structures + comparisons with known structures of the connector protein (PDB database)\n\nStructural Analysis\n\nStructural Phylogenetic tree can be found in tree\n\nCompare Structural Phylogenetic Tree with Hosts\n\nhosts can be found in heatmap"
   },
   {
-    "objectID": "posts/portfolio/contents/MGV/index.html#modeling",
-    "href": "posts/portfolio/contents/MGV/index.html#modeling",
+    "objectID": "posts/portfolio/contents/MGV/index.html#results",
+    "href": "posts/portfolio/contents/MGV/index.html#results",
     "title": "Metagenomics Viral Database Project",
-    "section": "Modeling",
-    "text": "Modeling\n\nWe will be using AlphaFold and SWISS-MODEL to model the connector protein."
+    "section": "Results",
+    "text": "Results\nIt is difficult to verify whether the structural phylogenetic tree we created is any more or less accurate than phylogenetic trees made using sequence alignment. What we do see is that there are certain clades in the structural tree that correspond to certain hosts. This may indicate that the certain hosts are placing some selective pressure on the evolution of the connector protein and the workflow we’ve outlined in this project could potentially used to further explore how hosts or perhaps even other environmental factors influence the evolution of certain proteins."
+  },
+  {
+    "objectID": "posts/portfolio/contents/MGV/index.html#future-directions",
+    "href": "posts/portfolio/contents/MGV/index.html#future-directions",
+    "title": "Metagenomics Viral Database Project",
+    "section": "Future Directions",
+    "text": "Future Directions\n\nInstead of using TM-align (which looks at global similarities), we should compare structures based on local similarities. One software that does this is DALI\nWe only looked compared the structure of the monomer in this project. Using the complete structure of the complex would be more biologically accurate.\nAnd last but not least, it’s always better to have more data. We only used structures in the database that were annotated as “connector”. “Portal” is synonymous with “connector” in bacteriophage physiology. Those structures can also be used here.\n\nPoster presented at URC 2024:"
   },
   {
     "objectID": "posts/portfolio/contents/Stochastic_Viterbi/index.html",
